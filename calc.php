@@ -36,7 +36,7 @@ if(
 
 
 
-$page = str_replace('{{ result }}', $area, $page);
+$page = str_replace('{{ result }}', $final, $page);
 
 echo $page;
 
